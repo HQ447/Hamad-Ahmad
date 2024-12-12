@@ -75,6 +75,9 @@ export const projectsData = [
     title: "Tasty App",
     description_EN:
       "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
+    description:
+      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
