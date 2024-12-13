@@ -1,16 +1,19 @@
 import React from "react";
-import Button from "./Button";
+// import Button from "./Button";
 import RadialGradient from "./RadialGradient";
 import { headerIntroData } from "../assets/lib/data";
 import { useSectionInView } from "../assets/lib/hooks";
-import { useActiveSectionContext } from "../context/active-section-context";
+// import { useActiveSectionContext } from "../context/active-section-context";
 import { useLanguage } from "../context/language-context";
 import { BsMouse } from "react-icons/bs";
+// import { icons } from "react-icons/lib";
+import { FaWhatsapp } from "react-icons/fa";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 const HeaderIntro: React.FC = () => {
   const { language } = useLanguage();
   const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  // const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -40,17 +43,20 @@ const HeaderIntro: React.FC = () => {
 
       <div className="button-container flex items-center justify-center mr-8 gap-10 mb-12 max-lg:flex-col max-lg:items-center">
         {headerIntroData.buttons.map((button, index) => (
-          <Button
+          <a
+            href=""
             key={index}
-            label={language === "DE" ? button.label.de : button.label.en}
-            iconSVG={button.icon}
-            link={`#${button.name.toLocaleLowerCase()}`}
-            buttoncolor={button.color}
-            onClick={() => {
-              setActiveSection(button.name);
-              setTimeOfLastClick(Date.now());
-            }}
-          />
+            className={` hover:cursor-pointer ${
+              button.name == "Contact" ? "bg-[#ff8059]" : "bg-[#1a2238]"
+            } text-white px-4 rounded-md py-5 text-2xl flex items-center gap-2   `}
+          >
+            {button.name == "Contact" ? (
+              <FaWhatsapp className="text-3xl" />
+            ) : (
+              <IoDocumentTextOutline className="text-3xl" />
+            )}
+            {button.label.en}
+          </a>
         ))}
       </div>
       <div className="scroll-down-container animate-bounce flex gap-6">
