@@ -23,9 +23,10 @@ import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+import eduAI from "../../assets/img/eduAI.jpg";
+import bazar from "../../assets/img/bazar.jpg";
+import castocare from "../../assets/img/castocare.jpg";
+import movieapp from "../../assets/img/movie app.jpg";
 import profilepicture from "../img/sgg.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -90,9 +91,9 @@ export const projectsData = [
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
     ],
-    image: tastyMockup,
-    deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    image: eduAI,
+    deploymenturl: "https://edu-ai-ym44.vercel.app/",
+    githuburl: "https://github.com/HQ447/eduAi.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -120,10 +121,9 @@ export const projectsData = [
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
     ],
-    image: silentmoonMockup,
-    deploymenturl: "https://silentmoon-grpw.onrender.com/",
-    githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+    image: castocare,
+    deploymenturl: "https://custo-care.vercel.app",
+    githuburl: "https://github.com/HQ447/CastoCare.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -151,9 +151,9 @@ export const projectsData = [
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
     ],
-    image: instorMockup,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    image: bazar,
+    deploymenturl: "https://estore-six-umber.vercel.app",
+    githuburl: "https://github.com/HQ447/ecommerce-Redux.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -181,9 +181,9 @@ export const projectsData = [
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
     ],
-    image: instorMockup,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    image: movieapp,
+    deploymenturl: "https://react-movie-app-umber-eight.vercel.app",
+    githuburl: "https://github.com/HQ447/Movie-App.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
