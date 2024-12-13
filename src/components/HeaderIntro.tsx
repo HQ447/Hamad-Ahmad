@@ -7,7 +7,10 @@ import { useSectionInView } from "../assets/lib/hooks";
 import { useLanguage } from "../context/language-context";
 import { BsMouse } from "react-icons/bs";
 // import { icons } from "react-icons/lib";
-import { FaWhatsapp } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
+import resume from "../assets/resume.pdf";
+
+// import ReactWhatsapp from "react-whatsapp";
 import { IoDocumentTextOutline } from "react-icons/io5";
 
 const HeaderIntro: React.FC = () => {
@@ -42,22 +45,20 @@ const HeaderIntro: React.FC = () => {
       </p>
 
       <div className="button-container flex items-center justify-center mr-8 gap-10 mb-12 max-lg:flex-col max-lg:items-center">
-        {headerIntroData.buttons.map((button, index) => (
-          <a
-            href=""
-            key={index}
-            className={` hover:cursor-pointer ${
-              button.name == "Contact" ? "bg-[#ff8059]" : "bg-[#1a2238]"
-            } text-white px-4 rounded-md py-5 text-2xl flex items-center gap-2   `}
-          >
-            {button.name == "Contact" ? (
-              <FaWhatsapp className="text-3xl" />
-            ) : (
-              <IoDocumentTextOutline className="text-3xl" />
-            )}
-            {button.label.en}
-          </a>
-        ))}
+        <a
+          href="mailto:hamadqur447@gmail.com"
+          className="px-4 relative z-50 flex items-center gap-2 py-4 rounded-md bg-[#ff6a3d] hover:cursor-pointer text-xl text-white"
+        >
+          <CiMail className="text-3xl" />
+          Contact Me
+        </a>
+        <a
+          href={resume}
+          className="px-4 relative z-50 flex items-center gap-2 py-4 rounded-md bg-[#1a2238] text-xl text-white hover:cursor-pointer"
+        >
+          <IoDocumentTextOutline className="text-3xl" />
+          Dowload Resume
+        </a>
       </div>
       <div className="scroll-down-container animate-bounce flex gap-6">
         <BsMouse className="text-[2.6rem]" />
