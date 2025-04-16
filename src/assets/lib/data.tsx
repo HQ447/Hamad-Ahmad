@@ -27,7 +27,7 @@ import eduAI from "../../assets/img/eduAI.jpg";
 import bazar from "../../assets/img/bazar.jpg";
 import castocare from "../../assets/img/castocare.jpg";
 import movieapp from "../../assets/img/movie app.jpg";
-import profilepicture from "../img/sgg.jpg";
+import profilepicture from "../img/profilepic1.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
