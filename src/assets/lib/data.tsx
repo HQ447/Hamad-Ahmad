@@ -25,6 +25,7 @@ import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 import eduAI from "../../assets/img/eduAI.jpg";
 import bazar from "../../assets/img/bazar.jpg";
+import vista from "../../assets/img/Screenshot (538).png";
 import castocare from "../../assets/img/castocare.jpg";
 import movieapp from "../../assets/img/movie app.jpg";
 import islamicCenter from "../../assets/img/e-islamic-center.png";
@@ -156,6 +157,36 @@ export const projectsData = [
     image: bazar,
     deploymenturl: "https://estore-six-umber.vercel.app",
     githuburl: "https://github.com/HQ447/ecommerce-Redux.git",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Vista Movies",
+    description:
+      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+    description_EN:
+      "platform dedicated to movies, providing users with an intuitive experience to explore, browse, and discover films. It caters to movie enthusiasts by offering detailed information about movies, ensuring an engaging and user-friendly experience.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "Axios", icon: axiosicon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+    ],
+    image: vista,
+    deploymenturl: "https://vista-movies.vercel.app/",
+    githuburl: "https://github.com/HQ447/vistaMovies.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
