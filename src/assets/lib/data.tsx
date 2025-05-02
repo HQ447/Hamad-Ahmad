@@ -30,7 +30,7 @@ import drinkshop from "../../assets/img/Screenshot (540).png";
 import weather from "../../assets/img/Screenshot (539).png";
 import castocare from "../../assets/img/castocare.jpg";
 import movieapp from "../../assets/img/movie app.jpg";
-import islamicCenter from "../../assets/img/e-islamic-center.png";
+import islamicCenter from "../../assets/img/islamic-center.png";
 //import profilepicture from "../img/profilepic1.jpg";
 import profilepicture from "../img/profilepic2.png";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -106,6 +106,36 @@ export const projectsData = [
       second: "secondary-btn",
       icon: "white",
       projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "E Islamic Center",
+    description:
+      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+    description_EN:
+      "A web platform dedicated for Islamic Learnings, providing users with an intuitive experience to explore, browse, and discover contents.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "Axios", icon: axiosicon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+    ],
+    image: islamicCenter,
+    deploymenturl: "https://e-islamic-center.vercel.app",
+    githuburl: "https://github.com/HQ447/talha.git",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
     },
   },
   {
@@ -279,36 +309,6 @@ export const projectsData = [
     image: movieapp,
     deploymenturl: "https://react-movie-app-umber-eight.vercel.app",
     githuburl: "https://github.com/HQ447/Movie-App.git",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
-    },
-  },
-  {
-    title: "E Islamic Center",
-    description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
-    description_EN:
-      "A web platform dedicated for Islamic Learnings, providing users with an intuitive experience to explore, browse, and discover contents.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-    ],
-    image: islamicCenter,
-    deploymenturl: "https://e-islamic-center.vercel.app",
-    githuburl: "https://github.com/HQ447/talha.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
