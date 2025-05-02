@@ -138,36 +138,7 @@ export const projectsData = [
       projectcolor: "#E3964A",
     },
   },
-  {
-    title: "Castocare",
-    description:
-      "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
-    description_EN:
-      "Castocare is a web platform designed to deliver food and grocery items directly to customers' doorsteps. It ensures convenience and reliability by offering a seamless experience for ordering daily essentials from the comfort of home.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-    ],
-    image: castocare,
-    deploymenturl: "https://custo-care.vercel.app",
-    githuburl: "https://github.com/HQ447/CastoCare.git",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#FFD5BD",
-    },
-  },
+
   {
     title: "Bazar",
     description:
@@ -226,6 +197,36 @@ export const projectsData = [
       second: "secondary-btn",
       icon: "white",
       projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Castocare",
+    description:
+      "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
+    description_EN:
+      "Castocare is a web platform designed to deliver food and grocery items directly to customers' doorsteps. It ensures convenience and reliability by offering a seamless experience for ordering daily essentials from the comfort of home.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "Axios", icon: axiosicon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+    ],
+    image: castocare,
+    deploymenturl: "https://custo-care.vercel.app",
+    githuburl: "https://github.com/HQ447/CastoCare.git",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
     },
   },
   {
