@@ -81,6 +81,8 @@ export const projectsData = [
     title: "Education AI",
     description_EN:
       "Edu-AI is an educational e-learning platform designed for Pakistan's local environment. It offers courses tailored for medical and engineering exam preparation, allowing students to purchase and study efficiently. The platform aims to bridge the gap in accessible, localized exam preparation resources.",
+    description:
+      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
 
     technologies: [
       { name: "Html", icon: htmlicon },
@@ -108,6 +110,8 @@ export const projectsData = [
   },
   {
     title: "E Islamic Center",
+    description:
+      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
     description_EN:
       "A web platform dedicated for Islamic Learnings, providing users with an intuitive experience to explore, browse, and discover contents.",
     technologies: [
@@ -137,6 +141,8 @@ export const projectsData = [
 
   {
     title: "Bazar",
+    description:
+      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
     description_EN:
       "Bazar is a web-based e-commerce platform that simplifies clothing purchases for customers. It provides an easy-to-use interface where users can explore and buy a wide variety of clothes through a streamlined process.",
     technologies: [
@@ -165,6 +171,8 @@ export const projectsData = [
   },
   {
     title: "Vista Movies",
+    description:
+      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
     description_EN:
       "platform dedicated to movies, providing users with an intuitive experience to explore, browse, and discover films. It caters to movie enthusiasts by offering detailed information about movies, ensuring an engaging and user-friendly experience.",
     technologies: [
