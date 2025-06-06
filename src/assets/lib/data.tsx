@@ -25,6 +25,8 @@ import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 import eduAI from "../../assets/img/eduAI.jpg";
 import bazar from "../../assets/img/Bazar.png";
+import eduConnect from "../../assets/img/eduConnect.png";
+import techmart from "../../assets/img/techmart.png";
 import vista from "../../assets/img/Screenshot (538).png";
 import drinkshop from "../../assets/img/Screenshot (540).png";
 import weather from "../../assets/img/Screenshot (539).png";
@@ -99,6 +101,68 @@ export const projectsData = [
     image: eduAI,
     deploymenturl: "https://edu-ai-ym44.vercel.app/",
     githuburl: "https://github.com/HQ447/eduAi.git",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "EduConnect",
+    description_EN:
+      "🎓 EduConnect – Student-Teacher Location-Based Platform EduConnect is a MERN stack educational platform that connects students with nearby online teachers based on their real-time location. It features interactive maps, chat functionality, and a seamless teacher discovery system to enhance digital learning access.",
+    description:
+      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "REST Api", icon: apiicon },
+      { name: "React", icon: reacticon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+    ],
+    image: eduConnect,
+    deploymenturl: "https://github.com/HQ447/EduConnect.git",
+    githuburl: "https://github.com/HQ447/EduConnect.git",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "TechMart",
+    description_EN:
+      "📱 TechMart – Online Tech Accessories Store TechMart is a full-featured MERN stack e-commerce platform for purchasing tech accessories like smartphones, laptops, PCs, monitors, smartwatches, and more. It includes separate dashboards for admin, riders, and staff to manage products, orders, and deliveries efficiently.",
+    description:
+      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "REST Api", icon: apiicon },
+      { name: "React", icon: reacticon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+    ],
+    image: techmart,
+    deploymenturl: "https://github.com/HQ447/TechMart.git",
+    githuburl: "https://github.com/HQ447/TechMart.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
