@@ -25,7 +25,7 @@ import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 import eduAI from "../../assets/img/eduAI.jpg";
 import bazar from "../../assets/img/Bazar.png";
-import eduConnect from "../../assets/img/eduConnect.png";
+import eduConnect from "../../assets/img/educonnect.png";
 import techmart from "../../assets/img/techmart.png";
 import vista from "../../assets/img/Screenshot (538).png";
 import drinkshop from "../../assets/img/Screenshot (540).png";
