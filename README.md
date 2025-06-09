@@ -1,59 +1,34 @@
-# Portfolio Webseite
+# 🧑‍💻 React Developer Portfolio
 
-This is a portfolio website built using React, Tailwind CSS, and TypeScript. The website showcases my skills and projects as a full-stack developer. For the contactform i used a backend, which is build on node.js and express.
+This is a personal developer portfolio website built using **React.js**, designed to showcase my skills, projects, experience, and contact information. The portfolio is fully responsive, cleanly designed, and serves as a professional presence for recruiters, clients, or collaborators.
 
-## Demo
+---
 
+## 🚀 Features
 
+- 🖼️ Hero Section with Profile & Tagline
+- 💼 Projects Showcase with Live Links & GitHub Repos
+- 🧠 Skills Section with Tech Stack Icons
+- 📄 Resume Download Button
+- 🗂️ About Me Section
+- 📞 Contact Form (EmailJS or SMTP support)
+- 🌙 Light/Dark Theme Toggle (optional)
+- 📱 Fully Responsive for Mobile, Tablet, Desktop
 
-You can also check out the live demo of the portfolio website [here](https://hamad-ochre.vercel.app).
+---
 
-## Features
+## 🧱 Tech Stack
 
-- SEO optimized
-- User settings stored in session storage
-- Dark and Light mode available
-- Easy data modification through a single `data.tsx` file
-- Gziped and lazy loaded Data
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
-- Smooth scrolling in each section.Contains animations when scrolling.
-- Uptime Service with colored animation
+- **Frontend:** React.js, JSX, CSS/Tailwind/Styled-Components
+- **Animations:** Framer Motion / AOS (Animate On Scroll)
+- **Icons:** React Icons, DevIcons
+- **Email:** EmailJS / FormSubmit (for contact form)
+- **Deployment:** GitHub Pages / Vercel / Netlify
 
-## Installation
+---
 
-Clone the Repo
+## 🌐 Live Demo
 
-```bash
-  git clone <reponame>
-```
+🔗(https://hamad-1.vercel.app/)
 
-Installation of dependencies
-
-```bash
-npm i or npm install
-```
-
-Start Server
-
-```bash
-npm run dev
-```
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file. See .env-init in root directory
-
-`API_BASE_URL`
-
-`API_SERVICESTATUS_URL`
-
-## Tech Stack
-
-**Client:** React, React Router Dom, Tailwind CSS, Typescript, Axios, Framer Motion, GSAP, Prism React Renderer, React Icons, React Intersection Observer, React Toastify, React Tooltip, Reactjs Popup, Swiper, Rollup Plugin Gzip
-
-**Server:** Node, Express, NodeMailer
-
-## Support
-
-If you find this project helpful or would like to support my work, you can ⭐ this Repo
+---
