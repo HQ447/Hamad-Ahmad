@@ -26,6 +26,7 @@ import webflowicon from "../../assets/icons/webflowicon.svg";
 import eduAI from "../../assets/img/eduAI.jpg";
 import bazar from "../../assets/img/Bazar.png";
 import eduConnect from "../../assets/img/educonnect.png";
+import finance from "../../assets/img/finance.png";
 import techmart from "../../assets/img/techmart.png";
 import vista from "../../assets/img/Screenshot (538).png";
 import drinkshop from "../../assets/img/Screenshot (540).png";
@@ -163,6 +164,37 @@ export const projectsData = [
     image: techmart,
     deploymenturl: "https://github.com/HQ447/TechMart.git",
     githuburl: "https://github.com/HQ447/TechMart.git",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Finance Tracker",
+    description_EN:
+      "💰 A full-featured MERN stack Personal Finance Tracker that allows users to manage income, expenses, budgets, and transactions with real-time analytics, visual insights, and role-based admin control.",
+    description:
+      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "REST Api", icon: apiicon },
+      { name: "React", icon: reacticon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+    ],
+    image: finance,
+    deploymenturl: "https://github.com/HQ447/Personal-Finance-Tracker.git",
+    githuburl: "https://github.com/HQ447/Personal-Finance-Tracker.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {

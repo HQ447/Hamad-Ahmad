@@ -32,3 +32,7 @@ This is a personal developer portfolio website built using **React.js**, designe
 🔗(https://hamad-1.vercel.app/)
 
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9b1a480a7b111e922ba015068d486a09e0e91213
