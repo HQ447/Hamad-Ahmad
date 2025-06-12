@@ -8,7 +8,7 @@ import { useLanguage } from "../context/language-context";
 import { BsMouse } from "react-icons/bs";
 // import { icons } from "react-icons/lib";
 import { CiMail } from "react-icons/ci";
-import resume from "../assets/myresume.pdf";
+import resume from "../assets/cv.pdf";
 
 // import ReactWhatsapp from "react-whatsapp";
 import { IoDocumentTextOutline } from "react-icons/io5";
