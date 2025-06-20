@@ -223,8 +223,8 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
     ],
     image: castocare,
-    deploymenturl: "https://custo-care.vercel.app",
-    githuburl: "https://github.com/HQ447/CastoCare.git",
+    deploymenturl: "https://github.com/HQ447/Custocare.git",
+    githuburl: "https://github.com/HQ447/Custocare.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
