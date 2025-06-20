@@ -31,7 +31,8 @@ import techmart from "../../assets/img/techmart.png";
 import vista from "../../assets/img/Screenshot (538).png";
 import drinkshop from "../../assets/img/Screenshot (540).png";
 import weather from "../../assets/img/Screenshot (539).png";
-import castocare from "../../assets/img/castocare.jpg";
+import castocare from "../../assets/img/castocare.png";
+
 import movieapp from "../../assets/img/movie app.jpg";
 import islamicCenter from "../../assets/img/islamic-center.png";
 //import profilepicture from "../img/profilepic1.jpg";
