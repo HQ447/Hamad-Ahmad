@@ -36,7 +36,7 @@ import castocare from "../../assets/img/castocare.png";
 import movieapp from "../../assets/img/movie app.jpg";
 import islamicCenter from "../../assets/img/islamic-center.png";
 //import profilepicture from "../img/profilepic1.jpg";
-import profilepicture from "../img/profilepic2.png";
+import profilepicture from "../../assets/img/78e375-removebg-preview.png";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
