@@ -20,7 +20,7 @@ const HeaderIntro: React.FC = () => {
 
   return (
     <section
-      className="hero flex flex-col justify-center gap-10 items-center h-full max-lg:h-full max-lg:gap-6"
+      className="flex flex-col items-center justify-center h-full gap-10 hero max-lg:h-full max-lg:gap-6"
       ref={ref}
       id="home"
     >
@@ -29,7 +29,7 @@ const HeaderIntro: React.FC = () => {
       <img
         src={headerIntroData.profilepicture}
         alt={headerIntroData.profilepicture}
-        className="w-64 h-64 drop-shadow-2xl rounded-full shadow-2xl avatar-img "
+        className="w-64 h-64 rounded-full shadow-2xl drop-shadow-2xl avatar-img "
       />
       <h1>
         {language === "DE"
@@ -38,13 +38,13 @@ const HeaderIntro: React.FC = () => {
         <span className="wave text-7xl">&#128075;&#127997;</span>
       </h1>
       <h2>{headerIntroData.subtitle}</h2>
-      <p className="w-1/2 text-center max-lg:hidden">
+      <p className="w-1/2 text-[15px] text-center max-lg:hidden">
         {language === "DE"
           ? headerIntroData.description.de
           : headerIntroData.description.en}
       </p>
 
-      <div className="button-container flex items-center justify-center mr-8 gap-10 mb-12 max-lg:flex-col max-lg:items-center">
+      <div className="flex items-center justify-center gap-10 mb-12 mr-8 button-container max-lg:flex-col max-lg:items-center">
         <a
           href="mailto:hamadqur447@gmail.com"
           className="px-4 relative z-50 flex items-center gap-2 py-4 rounded-md bg-[#ff6a3d] hover:cursor-pointer text-xl text-white"
@@ -60,7 +60,7 @@ const HeaderIntro: React.FC = () => {
           Dowload Resume
         </a>
       </div>
-      <div className="scroll-down-container animate-bounce flex gap-6">
+      <div className="flex gap-6 scroll-down-container animate-bounce">
         <BsMouse className="text-[2.6rem]" />
       </div>
     </section>

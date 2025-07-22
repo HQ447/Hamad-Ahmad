@@ -73,7 +73,7 @@ const Home: React.FC = () => {
               dividerStyle="solid"
             />
             <ProjectSlider />
-            <div className="relative -mb-24 pb-32 -mt-10">
+            <div className="relative pb-32 -mt-10 -mb-24">
               <LazyRadialGradient
                 opacity={theme === "light" ? "opacity-30" : "opacity-30"}
                 scale="scale-y-100"
