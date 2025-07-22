@@ -102,7 +102,7 @@ export const projectsData = [
     ],
     image: eduAI,
     deploymenturl: "https://edu-ai-ym44.vercel.app/",
-    githuburl: "https://github.com/HQ447/eduAi.git",
+    githuburl: "https://github.com/HQ447/Education-AI.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
