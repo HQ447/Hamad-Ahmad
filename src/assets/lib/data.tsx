@@ -236,7 +236,7 @@ export const projectsData = [
     },
   },
   {
-    title: "E Islamic Center",
+    title: "Noor-ul-Quran",
     description:
       "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
     description_EN:
@@ -254,8 +254,8 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
     ],
     image: islamicCenter,
-    deploymenturl: "https://e-islamic-center.vercel.app",
-    githuburl: "https://github.com/HQ447/talha.git",
+    deploymenturl: "https://islamic-center-beta.vercel.app/",
+    githuburl: "https://github.com/HQ447/Noor-ul-Quran.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
