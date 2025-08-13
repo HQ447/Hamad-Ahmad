@@ -23,7 +23,7 @@ import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import eduAI from "../../assets/img/eduAI.jpg";
+import eduAI from "../../assets/img/eduAI.png";
 import bazar from "../../assets/img/Bazar.png";
 import eduConnect from "../../assets/img/educonnect.png";
 import finance from "../../assets/img/finance.png";
@@ -101,7 +101,7 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
     ],
     image: eduAI,
-    deploymenturl: "https://edu-ai-ym44.vercel.app/",
+    deploymenturl: "https://github.com/HQ447/Education-AI.git",
     githuburl: "https://github.com/HQ447/Education-AI.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
@@ -357,66 +357,66 @@ export const projectsData = [
       projectcolor: "#E3964A",
     },
   },
-  {
-    title: "DrinkShop Web",
-    description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
-    description_EN:
-      "A modern e-commerce platform for browsing, customizing, and ordering your favorite beverages online.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-    ],
-    image: drinkshop,
-    deploymenturl: "https://drinks-shop-alpha.vercel.app/",
-    githuburl: "https://github.com/HQ447/DrinksShop.git",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
-    },
-  },
-  {
-    title: "Movie Web",
-    description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
-    description_EN:
-      "A web platform dedicated to movies, providing users with an intuitive experience to explore, browse, and discover films. It caters to movie enthusiasts by offering detailed information about movies, ensuring an engaging and user-friendly experience.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-    ],
-    image: movieapp,
-    deploymenturl: "https://react-movie-app-umber-eight.vercel.app",
-    githuburl: "https://github.com/HQ447/Movie-App.git",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
-    },
-  },
+  // {
+  //   title: "DrinkShop Web",
+  //   description:
+  //     "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+  //   description_EN:
+  //     "A modern e-commerce platform for browsing, customizing, and ordering your favorite beverages online.",
+  //   technologies: [
+  //     { name: "Html", icon: htmlicon },
+  //     { name: "CSS", icon: cssicon },
+  //     { name: "JavaScript", icon: javascripticon },
+  //     { name: "React", icon: reacticon },
+  //     { name: "Axios", icon: axiosicon },
+  //     { name: "JWT & Bcrypt", icon: jwticon },
+  //     { name: "MongoDB", icon: mongodbicon },
+  //     { name: "Express", icon: expressiconwhite },
+  //     { name: "Node.js", icon: nodejsicon },
+  //     { name: "Figma", icon: figmaicon },
+  //   ],
+  //   image: drinkshop,
+  //   deploymenturl: "https://drinks-shop-alpha.vercel.app/",
+  //   githuburl: "https://github.com/HQ447/DrinksShop.git",
+  //   githubicon: FiGithub,
+  //   deploymenticon: FiLink,
+  //   colors: {
+  //     main: "main-btn",
+  //     second: "secondary-btn",
+  //     icon: "white",
+  //     projectcolor: "#E3964A",
+  //   },
+  // },
+  // {
+  //   title: "Movie Web",
+  //   description:
+  //     "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+  //   description_EN:
+  //     "A web platform dedicated to movies, providing users with an intuitive experience to explore, browse, and discover films. It caters to movie enthusiasts by offering detailed information about movies, ensuring an engaging and user-friendly experience.",
+  //   technologies: [
+  //     { name: "Html", icon: htmlicon },
+  //     { name: "CSS", icon: cssicon },
+  //     { name: "JavaScript", icon: javascripticon },
+  //     { name: "React", icon: reacticon },
+  //     { name: "JWT & Bcrypt", icon: jwticon },
+  //     { name: "Axios", icon: axiosicon },
+  //     { name: "MongoDB", icon: mongodbicon },
+  //     { name: "Express", icon: expressiconwhite },
+  //     { name: "Node.js", icon: nodejsicon },
+  //     { name: "Figma", icon: figmaicon },
+  //   ],
+  //   image: movieapp,
+  //   deploymenturl: "https://react-movie-app-umber-eight.vercel.app",
+  //   githuburl: "https://github.com/HQ447/Movie-App.git",
+  //   githubicon: FiGithub,
+  //   deploymenticon: FiLink,
+  //   colors: {
+  //     main: "main-btn",
+  //     second: "secondary-btn",
+  //     icon: "white",
+  //     projectcolor: "#E3964A",
+  //   },
+  // },
 ] as const;
 
 export const liveTickerData = {
