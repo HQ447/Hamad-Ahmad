@@ -29,14 +29,14 @@ import eduConnect from "../../assets/img/educonnect.png";
 import finance from "../../assets/img/finance.png";
 import techmart from "../../assets/img/techmart.png";
 import vista from "../../assets/img/Screenshot (538).png";
-import drinkshop from "../../assets/img/Screenshot (540).png";
+//import drinkshop from "../../assets/img/Screenshot (540).png";
 import weather from "../../assets/img/Screenshot (539).png";
 import castocare from "../../assets/img/castocare.png";
 
-import movieapp from "../../assets/img/movie app.jpg";
+//import movieapp from "../../assets/img/movie app.jpg";
 import islamicCenter from "../../assets/img/islamic-center.png";
 //import profilepicture from "../img/profilepic1.jpg";
-import profilepicture from "../../assets/img/78e375-removebg-preview.png";
+import profilepicture from "../../assets/img/profile.png";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
