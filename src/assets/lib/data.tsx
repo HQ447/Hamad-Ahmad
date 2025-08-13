@@ -357,6 +357,7 @@ export const projectsData = [
       projectcolor: "#E3964A",
     },
   },
+  //old projects
   // {
   //   title: "DrinkShop Web",
   //   description:
