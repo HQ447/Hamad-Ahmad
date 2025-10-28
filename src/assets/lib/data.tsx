@@ -37,6 +37,7 @@ import castocare from "../../assets/img/castocare.png";
 import islamicCenter from "../../assets/img/islamic-center.png";
 //import profilepicture from "../img/profilepic1.jpg";
 import profilepicture from "../../assets/img/profile.png";
+import nain from "../../assets/img/nain.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
@@ -100,9 +101,39 @@ export const projectsData = [
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
     ],
-    image: eduAI,
+    image: nain,
     deploymenturl: "https://github.com/HQ447/Education-AI.git",
     githuburl: "https://github.com/HQ447/Education-AI.git",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Nain By Zulqarnain",
+    description_EN:
+      " A Business Management Dashboard built using the MERN stack (MongoDB, Express, React, Node.js) that helps managers efficiently track and manage all aspects of their business — including sales, purchases, returns, profits, and losses — from one centralized platform.",
+    description:
+      "A Business Management Dashboard built using the MERN stack (MongoDB, Express, React, Node.js) that helps managers efficiently track and manage all aspects of their business — including sales, purchases, returns, profits, and losses — from one centralized platform.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "REST Api", icon: apiicon },
+      { name: "React", icon: reacticon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Figma", icon: figmaicon },
+    ],
+    image: eduAI,
+    deploymenturl: "https://github.com/HQ447/oric-dashboard.git",
+    githuburl: "https://github.com/HQ447/oric-dashboard.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
