@@ -1,21 +1,26 @@
 "use client";
 
-import { useState } from "react";
+import { useState, KeyboardEvent } from "react";
 import { botData } from "../assets/lib/botData";
 import { MessageSquare, X } from "lucide-react";
 
-export default function ChatBot() {
-  const [open, setOpen] = useState(false);
-  const [messages, setMessages] = useState([]);
-  const [input, setInput] = useState("");
-  const [btnTitle, setBtnTitle] = useState(false);
+interface Message {
+  sender: "user" | "bot";
+  text: string;
+}
 
-  // --- REPLY HANDLER ---
-  const getBotReply = (userMessage) => {
+export default function ChatBot(): JSX.Element {
+  const [open, setOpen] = useState<boolean>(false);
+  const [messages, setMessages] = useState<Message[]>([]);
+  const [input, setInput] = useState<string>("");
+  const [btnTitle, setBtnTitle] = useState<boolean>(false);
+
+  // --- BOT REPLY HANDLER ---
+  const getBotReply = (userMessage: string): string => {
     const msg = userMessage.toLowerCase();
 
     for (let item of botData) {
-      if (item.keywords.some((k) => msg.includes(k))) {
+      if (item.keywords.some((k: string) => msg.includes(k))) {
         return item.answer;
       }
     }
@@ -23,14 +28,18 @@ export default function ChatBot() {
     return "Sorry, I don't understand that yet. Try asking about my skills, experience, or projects!";
   };
 
-  const sendMessage = () => {
+  const sendMessage = (): void => {
     if (!input.trim()) return;
 
-    const userMsg = { sender: "user", text: input };
-    const botMsg = { sender: "bot", text: getBotReply(input) };
+    const userMsg: Message = { sender: "user", text: input };
+    const botMsg: Message = { sender: "bot", text: getBotReply(input) };
 
-    setMessages([...messages, userMsg, botMsg]);
+    setMessages((prev) => [...prev, userMsg, botMsg]);
     setInput("");
+  };
+
+  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>): void => {
+    if (e.key === "Enter") sendMessage();
   };
 
   return (
@@ -43,7 +52,10 @@ export default function ChatBot() {
           onMouseLeave={() => setBtnTitle(false)}
           className="fixed z-50 flex items-center justify-center gap-3 p-4 text-lg text-white transition bg-blue-600 rounded-full shadow-xl bottom-36 sm:bottom-24 right-6 sm:right-10 hover:bg-blue-700"
         >
-          <MessageSquare size={26} className="" /> <p className={` ${!btnTitle?"hidden":"flex"} text-lg text-white`}>Chat with Me</p>
+          <MessageSquare size={26} />  
+          <p className={`${!btnTitle ? "hidden" : "flex"} text-lg text-white`}>
+            Chat with Me
+          </p>
         </button>
       )}
 
@@ -51,15 +63,15 @@ export default function ChatBot() {
       {open && (
         <div
           className="
-  fixed bottom-6 right-6
-  bg-white shadow-2xl border rounded-xl overflow-hidden
-  w-80 h-[410px]
-  sm:w-96 
-  animate-fadeIn z-50
-  
-  max-sm:bottom-0 max-sm:right-0 
-  max-sm:w-full max-sm:h-full max-sm:rounded-none
-"
+            fixed bottom-6 right-6
+            bg-white shadow-2xl border rounded-xl overflow-hidden
+            w-80 h-[410px]
+            sm:w-96 
+            animate-fadeIn z-50
+            
+            max-sm:bottom-0 max-sm:right-0 
+            max-sm:w-full max-sm:h-full max-sm:rounded-none
+          "
         >
           {/* Header */}
           <div className="flex items-center justify-between p-4 text-white bg-blue-600">
@@ -90,7 +102,7 @@ export default function ChatBot() {
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && sendMessage()}
+              onKeyDown={handleKeyDown}
               className="flex-1 p-2 text-sm border rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Type your question..."
             />
