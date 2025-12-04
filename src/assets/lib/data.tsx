@@ -132,7 +132,7 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
     ],
     image: nain,
-    deploymenturl: "https://github.com/HQ447/oric-dashboard.git",
+    deploymenturl: "https://nainfresh-developers.onrender.com/",
     githuburl: "https://github.com/HQ447/oric-dashboard.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,

@@ -5,6 +5,7 @@ import ThemeSwitch from "../components/theme-switch";
 import { useTheme } from "../context/theme-context";
 import { ScrollProgress } from "../components/ScrollProgress";
 import Divider from "../components/Divider";
+import ChatBot from "../components/ChatBot";
 import ProjectSlider from "../components/ProjectSlider";
 
 const LazyBannerQuote = lazy(() => import("../components/BannerQuote"));
@@ -23,6 +24,7 @@ const Home: React.FC = () => {
     <>
       <Layout>
         <ThemeSwitch />
+        <ChatBot />
         <header className="h-screen">
           <ScrollProgress
             position={"left"}

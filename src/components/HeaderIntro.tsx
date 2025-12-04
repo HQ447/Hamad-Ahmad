@@ -7,7 +7,8 @@ import { useSectionInView } from "../assets/lib/hooks";
 import { useLanguage } from "../context/language-context";
 import { BsMouse } from "react-icons/bs";
 // import { icons } from "react-icons/lib";
-import { CiMail } from "react-icons/ci";
+// import { CiMail } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
 import resume from "../assets/cv.pdf";
 
 // import ReactWhatsapp from "react-whatsapp";
@@ -46,15 +47,15 @@ const HeaderIntro: React.FC = () => {
 
       <div className="flex items-center justify-center gap-10 mb-12 mr-8 button-container max-lg:flex-col max-lg:items-center">
         <a
-          href="mailto:hamadqur447@gmail.com"
-          className="px-4 relative z-50 flex items-center gap-2 py-4 rounded-md bg-[#ff6a3d] hover:cursor-pointer text-xl text-white"
+          href="https://wa.me/+923411918094"
+          className="px-4 relative z-40 flex items-center gap-2 py-4 rounded-md bg-[#ff6a3d] hover:cursor-pointer text-xl text-white"
         >
-          <CiMail className="text-3xl" />
+          <FaWhatsapp className="text-3xl" />
           Contact Me
         </a>
         <a
           href={resume}
-          className="px-4 relative z-50 flex items-center gap-2 py-4 rounded-md bg-[#1a2238] text-xl text-white hover:cursor-pointer"
+          className="px-4 relative z-40 flex items-center gap-2 py-4 rounded-md bg-[#1a2238] text-xl text-white hover:cursor-pointer"
         >
           <IoDocumentTextOutline className="text-3xl" />
           Dowload Resume
