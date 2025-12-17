@@ -285,7 +285,7 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
     ],
     image: islamicCenter,
-    deploymenturl: "https://islamic-center-beta.vercel.app/",
+    deploymenturl: "https://alnooredu.online",
     githuburl: "https://github.com/HQ447/Noor-ul-Quran.git",
     githubicon: FiGithub,
     deploymenticon: FiLink,
